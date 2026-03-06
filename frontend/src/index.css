@@ -1,0 +1,27 @@
+/* src/index.css */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  /* THIS IS THE IMPORTANT PART */
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden; /* Prevents horizontal scrollbar */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #0d0d0d; /* Matches your theme */
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left; /* Vite defaults this to center, which breaks layouts */
+}
